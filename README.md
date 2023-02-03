@@ -1,0 +1,1 @@
+A simple gtin generator in typescript
