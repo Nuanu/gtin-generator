@@ -14,7 +14,7 @@ function calculateCheckDigit(gtin) {
 function generateGtins() {
     let outputElement = document.getElementById('generated');
     if (outputElement !== null) {
-        const numberOfGtins = 10;
+        const numberOfGtins = 5;
         let gtinElements = '';
         for (let i = 0; i < numberOfGtins; i++) {
             gtinElements += `<div>${generateGtin()}</div>\n`;
